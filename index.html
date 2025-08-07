@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>我的 Firebase 應用</title>
+  <!-- 引入 Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+  <h1>我的資料庫應用</h1>
+  
+  <form id="messageForm">
+    <input type="text" id="messageInput" placeholder="輸入訊息">
+    <button type="submit">送出</button>
+  </form>
+  
+  <ul id="messageList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
